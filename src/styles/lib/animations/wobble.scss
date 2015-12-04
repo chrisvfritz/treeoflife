@@ -1,0 +1,27 @@
+/********************************
+WOBBLE ANIMATION
+********************************/
+
+@keyframes wobble {
+  0%   { stroke-width: 3px; }
+  10%  { stroke-width: 4px; }
+  20%  { stroke-width: 2px; }
+  30%  { stroke-width: 4px; }
+  40%  { stroke-width: 1px; }
+  50%  { stroke-width: 3px; }
+  60%  { stroke-width: 2px; }
+  70%  { stroke-width: 1px; }
+  80%  { stroke-width: 3px; }
+  90%  { stroke-width: 4px; }
+  100% { stroke-width: 2px; }
+}
+
+.wobble {
+  animation-name: wobble;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
