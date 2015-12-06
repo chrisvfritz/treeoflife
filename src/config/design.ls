@@ -1,7 +1,21 @@
 module.exports =
 
-  tree:
-    background: '#1E1E1E'
+  # ------
+  # GLOBAL
+  # ------
+
+  traversal-animation-spring: [
+    # https://github.com/chenglou/react-motion#spring-number---stiffness-damping---configurationobject
+    40 # Stiffness
+    15 # Damping
+  ]
+
+  path:
+    background: '#9BA09B'
+
+  # -------
+  # SIDEBAR
+  # -------
 
   sidebar:
     width: 350
@@ -14,17 +28,12 @@ module.exports =
     image:
       background: '#2E2E2E'
 
-  breadcrumbs:
-    width: 75
+  # ----
+  # TREE
+  # ----
 
-    home-icon:
-      size: 40
-
-  traversal-animation-spring: [
-    # https://github.com/chenglou/react-motion#spring-number---stiffness-damping---configurationobject
-    40 # Stiffness
-    15 # Damping
-  ]
+  tree:
+    background: '#1E1E1E'
 
   node:
     size: 50
@@ -51,5 +60,15 @@ module.exports =
     * 'Archaea'
     * 'Eukarya'
 
-  path:
-    background: '#9BA09B'
+  # -----------
+  # BREADCRUMBS
+  # -----------
+
+  breadcrumbs:
+    width: 75
+
+    home-icon:
+      size: 40
+
+  breadcrumb:
+    size: 40

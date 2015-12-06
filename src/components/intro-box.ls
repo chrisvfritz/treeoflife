@@ -1,6 +1,9 @@
 require! {
+  # VENDOR ASSETS
   '../vendor/css/lightbox.css'
   '../vendor/js/lightbox.js'
+
+  # PROJECT ASSETS
   '../images/intro.png': intro-image-url
 }
 

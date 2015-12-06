@@ -1,10 +1,15 @@
 require! {
-  'react-motion': { Motion, spring }
+  # CONFIG
   '../config/design.ls': design-config
-  './tree-paths.ls': TreePaths
-  './tree-path.ls': TreePath
+
+  # VENDOR COMPONENTS
+  'react-motion': { Motion, spring }
+
+  # PROJECT COMPONENTS
   './tree-nodes.ls': TreeNodes
-  './tree-node.ls': TreeNode
+  './tree-node.ls':  TreeNode
+  './tree-paths.ls': TreePaths
+  './tree-path.ls':  TreePath
 }
 
 design-config.svg =

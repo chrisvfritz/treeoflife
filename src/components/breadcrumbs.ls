@@ -1,6 +1,11 @@
 require! {
+  # CONFIG
   '../config/design.ls': design-config
+
+  # PROJECT ASSETS
   '../images/home.png': home-icon-url
+
+  # VENDOR COMPONENTS
   'react-bootstrap/lib/OverlayTrigger'
   'react-bootstrap/lib/Popover'
   'react-motion': { Motion, spring }
@@ -177,10 +182,10 @@ module.exports = class Breadcrumbs extends React.Component
                               node.name
 
                           $image do
-                            x: -20
-                            y: -20
-                            width: 40
-                            height: 40
+                            x: -design-config.breadcrumb.size / 2
+                            y: -design-config.breadcrumb.size / 2
+                            width: design-config.breadcrumb.size
+                            height: design-config.breadcrumb.size
                             xlink-href: node.image
                             style:
                               filter: 'url(#inverse-color-matrix)'
@@ -197,46 +202,3 @@ module.exports = class Breadcrumbs extends React.Component
               breadcrumb-links
               breadcrumb-nodes
             ]
-                #     nodes_entering.append 'image'
-                #       .attr 'x', -20
-                #       .attr 'y', -20
-                #       .attr 'width', '40px'
-                #       .attr 'height', '40px'
-                #       .style 'filter', 'url(#inverse_color_matrix)'
-                #       .attr 'xlink:href', (d) -> d.image
-                #       .on 'click', (d) =>
-                #         unless is_current_cluster d
-                #           matched_node = undefined
-                #           collapse_child_clusters = (node) ->
-                #             if node.cluster_root && node.children
-                #               node._children = node.children
-                #               node.children = null
-                #             else if node.children
-                #               node.children.forEach collapse_child_clusters
-                #
-                #           find_node = (node) ->
-                #             if node.id is d.id
-                #               matched_node = node
-                #               matched_node.children.forEach collapse_child_clusters
-                #               return
-                #             node.children.forEach  find_node if node.children
-                #             node._children.forEach find_node if node._children
-                #           find_node @original_source
-                #           @main_tree.update matched_node
-                #
-                #     nodes_being_positioned = node_elements.transition()
-                #       .duration 1000
-                #       .attr 'transform', (d) =>
-                #         "translate(#{d.x},#{@height + @height_of_home_icon - d.y})"
-                #       .style 'opacity', 1
-
-                # $text do
-                #   text-anchor: 'middle'
-                #   node.name
-                # $circle do
-                #   key: 'breadcrumb-icon-' + node.id
-                #   r: 20
-                #   cx: -design-config.breadcrumbs.width / 2
-                #   # cy: -20
-
-        # .attr 'height', @height + @vertical_padding + @height_of_home_icon

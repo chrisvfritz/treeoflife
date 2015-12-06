@@ -1,9 +1,14 @@
 require! {
-  'react-motion': { Motion, spring }
+  # CONFIG
   '../config/design.ls': design-config
+
+  # VENDOR ASSETS
   '../vendor/css/bootstrap-popover.css'
+
+  # VENDOR COMPONENTS
   'react-bootstrap/lib/OverlayTrigger'
   'react-bootstrap/lib/Popover'
+  'react-motion': { Motion, spring }
 }
 
 module.exports = class TreeNode extends React.Component

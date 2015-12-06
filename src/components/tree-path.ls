@@ -1,6 +1,9 @@
 require! {
-  'react-motion': { Motion, spring }
+  # CONFIG
   '../config/design.ls': design-config
+
+  # VENDOR COMPONENTS
+  'react-motion': { Motion, spring }
 }
 
 module.exports = class TreePath extends React.Component

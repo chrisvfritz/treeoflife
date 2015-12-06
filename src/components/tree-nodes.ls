@@ -1,4 +1,5 @@
 require! {
+  # PROJECT COMPONENTS
   './tree-node.ls': TreeNode
 }
 
