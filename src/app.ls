@@ -6,6 +6,7 @@ require! {
   './pages/home.ls': Home
 
   # Styles
+  './vendor/css/normalize.css'
   './styles/app.scss'
 }
 

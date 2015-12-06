@@ -23,5 +23,4 @@ root import
     tree-data: require './config/tree-data.yml'
 
 # VENDOR
-require './vendor/d3-tip.js'
-require './vendor/lightbox.js'
+require './vendor/js/d3-tip.js'

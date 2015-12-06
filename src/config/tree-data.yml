@@ -14,7 +14,7 @@
           name: "Actinobacteria"
           image: "http://phylopic.org/assets/images/submissions/2cfe2856-1627-40f2-b4e9-58760cb78abb.svg"
           desc: "High GC Gram Positive Bacteria"
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Actinobacteria"
@@ -26,7 +26,7 @@
           name: "Aquificae"
         -
           name: "Armatimonadetes"
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Armatimonadia"
@@ -38,7 +38,7 @@
               name: "Unclassified Armatimonadetes"
         -
           name: "Bacteroidetes/Chlorobi"
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Bacteroidetes"
@@ -54,7 +54,7 @@
         -
           name: "Caldiserica"
           desc: "Caldisericia is a bacterium discovered in a hot spring in Japan. It is anaerobic, meaning it doesn't require oxygen for growth, and thermophilic, meaning it lives in relatively high temperatures. It is also thiosulfate-reducing, an important part of the geochemical cycle of anaerobic environments."
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Caldisericia"
@@ -64,7 +64,7 @@
         -
           name: "Chlamydiae/Verrucomicrobia"
           desc: 'With one genus, Chlamydia. Includes significant pathogens, many of which affect humans, and can cause chlamydial ocular blinding.'
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Chlamydiae"
@@ -79,7 +79,7 @@
         -
           name: "Chloroflexi"
           desc: "Green non-sulfur Bacteria"
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Anaerolineae"
@@ -113,7 +113,7 @@
         -
           name: "Cyanobacteria"
           desc: "Cyanobacteria, also known as blue-green algae, grow in any type of water and are photosynthetic (use sunlight to create food and support life). Cyanobacteria live in terrestrial, fresh, brackish, or marine water. They usually are too small to be seen, but sometimes can form visible colonies, called an algal bloom. Cyanobacteria have been found among the oldest fossils on earth and are one of the largest groups of bacteria. Cyanobacteria have been linked to human and animal illnesses around the world, including North and South America, Africa, Australia, Europe, Scandinavia, and China."
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Gloeobacteria"
@@ -141,7 +141,7 @@
         -
           name: "Deinococcus-Thermus"
           desc: 'Name introduced by Brooks and Murray 1981 (Int. J. Syst. Bacteriol. 31:354) with D. radiodurans as the type species. With about 10 species at the time of writing.'
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Deinococci"
@@ -151,7 +151,7 @@
         -
           name: "Dictyoglomi"
           desc: "This extremely thermophilic bacteria loves very hot environments. It has a three-layered cellular wall, and has been found to aid in whitening of paper when introduced to wood pulp because of an enzyme it produces."
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Gloeobacteria"
@@ -162,17 +162,14 @@
         -
           name: "Elusimicrobia"
           desc: "This bacteria is considered an 'ultramicrobacterium' because of their very tiny size. They measure less than 0.3 microns in size, and are widespread throughout the world. They are found in all sorts of environments, including a prevalence in most termite gut microfauna."
-          cluster_root: true
+          clusterRoot: true
           children:
-            -
-              name: "Elusimicrobia"
-              desc: "This bacteria is considered an 'ultramicrobacterium' because of their very tiny size. They measure less than 0.3 microns in size, and are widespread throughout the world. They are found in all sorts of environments, including a prevalence in most termite gut microfauna."
             -
               name: "Endomicrobia"
               desc: "These extremely unique bacteria are extremely diverse and reside in almost all of the gut systems of termites and the wood-feeding cockroackes of the clade Cryptocercus. They in help with the gut digestion of wood lignens in the stomachs of these insects, and at certain stages of their life-cycle, they become flourescent."
         -
           name: "Fibrobacteres/Acidobacteria"
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Acidobacteria"
@@ -186,7 +183,7 @@
         -
           name: "Firmicutes"
           desc: "High GC Gram Positive Bacteria. Firmicutes include a large body of bacteria, most notable in their ability to create endospores, dormant versions of the bacteria that cannot reproduce but can revive years later. Some firmicutes are  contributors to the spoiling of many fruit-based beverages"
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Bacilli"
@@ -208,7 +205,7 @@
         -
           name: "Fusobacteria"
           desc: "Fusobacteria is an anaerobic bacteria that is responsible for many human ailments of the throat and mouth, and could be a contributor to sore throats. They are usually rod-shaped with pointed ends."
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Fusobacteria"
@@ -221,7 +218,7 @@
         -
           name: "Nitrospinae"
           desc: "Nitrospinae is an important phylum of nitrate reducers that helps in the cycle of recycing nitrogen into the ecosystem. Having had its genome sequneced, it's been suggested that Nitrospinae has had Lateral Gene Transfer with members of the Proteobacteria clade."
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Nitrospinia"
@@ -231,7 +228,7 @@
         -
           name: "Nitrospirae"
           desc: "Nitrospirae are bacteria that oxidize nitrates, much like Nitrospinae. They are very important in marine ecosystems, where a failure to regulate the amount of nitrogen in the ecosystem can quickly affect the health of other species."
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Nitrospira"
@@ -240,7 +237,7 @@
         -
           name: "Planctomycetes"
           desc: 'Planctomycetes are a phylum of aquatic bacteria and are found in samples of brackish, and marine and fresh water. They reproduce by budding. In structure, the organisms of this group are ovoid and have a holdfast, called the stalk, at the nonreproductive end that helps them to attach to each other during budding.'
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Phycisphaerae"
@@ -254,7 +251,7 @@
           name: "Proteobacteria"
           desc: "Purple Bacteria. The Proteobacteria kingdom is the largest and most diverse in the domain Bacteria. As a group, these organisms show extreme metabolic diversity and represent the majority of known gram-negative bacteria of medical, industrial, and agricultural significance. This is an evolutionarily, geologically, and environmentally important group.  May have gas vesicles, flagella, or can move by gliding; they may have stalks, or other appendages. Some species are able to carry out photosynthesis, others deposit sulphur within the cells or outside. The subgroups are defined on the basis of rRNA sequences."
           lgt: "Verrucomicrobia"
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Alphaproteobacteria"
@@ -275,7 +272,7 @@
               name: "Unclassified Proteobacteria"
         -
           name: "Spirochaetes"
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Spirochaetia"
@@ -285,7 +282,7 @@
         -
           name: "Synergistetes"
           desc: "Members of this clade have been commonly found in both healthy and infected areas of the human body, however their consistent link to illness-related sites suggests many are opportunistic pathogens."
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Synergistia"
@@ -296,7 +293,7 @@
         -
           name: "Tenericutes"
           desc: "Tenericutes, meaning soft skin, are the parent clade of Mollicutes, a type of bacteria that lack a cell wall."
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Mollicutes"
@@ -309,7 +306,7 @@
         -
           name: "Thermotogae"
           desc: 'Thermotogae is a phylum of the domain "Bacteria". This phylum comprises merely the class "Thermotogae", with the order "Thermotogales" and the family "Thermotogaceae".'
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Thermotogae"
@@ -317,7 +314,7 @@
               name: "Unclassified Thermotogae"
         -
           name: "Unclassified Bacteria"
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Acetothermia"
@@ -399,11 +396,11 @@
           name: "Eukarya"
           desc: "TBD"
           group: "eukarya"
-          cluster_root: true # This is how we tell the visualization that the children of this node should be hidden by default, but then upon click, we'll hide its ancestors and show its children, once again stopping until we hit another cluster root.
+          clusterRoot: true # This is how we tell the visualization that the children of this node should be hidden by default, but then upon click, we'll hide its ancestors and show its children, once again stopping until we hit another cluster root.
           children:
             -
               name: "Alveolata Alveolata"
-              cluster_root: true
+              clusterRoot: true
               children:
                 -
                   name: "Acavomonas"
@@ -437,7 +434,7 @@
               name: "Amoebozoa"
               desc: 'The Amoebozoa are a major group of amoeboid protozoa, including the majority that move by means of internal cytoplasmic flow. Their pseudopodia are characteristically blunt and finger-like, called lobopodia. Most are unicellular, and are common in soils and aquatic habitats, with some found as symbiotes of other organisms, including several pathogens. The Amoebozoa also include the slime moulds, multinucleate or multicellular forms that produce spores and are usually visible to the unaided eye. Amoebozoa vary greatly in size. Many are only 10-20 micrometers in size, but they also include many of the larger protozoa. The famous species Amoeba proteus may reach 800 micrometers in length, and partly on account of its size is often studied as a representative cell. Multinucleate amoebae like Chaos and Pelomyxa may be several millimetres in length, and some slime moulds cover several square feet.'
               image: "http://phylopic.org/assets/images/submissions/e789d31d-cadf-42be-9508-58be6e2a5fff.svg"
-              cluster_root: true
+              clusterRoot: true
               children:
                 -
                   name: "Acramoeba"
@@ -469,7 +466,7 @@
             -
               name: "Apusozoa"
               image: "http://phylopic.org/assets/images/submissions/91b6a357-3c72-446b-8d4e-bab352ec8ff7.svg"
-              cluster_root: true
+              clusterRoot: true
               children:
                 -
                   name: "Ancyromonadidae"
@@ -492,7 +489,7 @@
               name: "Breviatea"
               desc: 'Monotypic taxon for species previously known as Mastigamoeba invertens.'
               image: "http://phylopic.org/assets/images/submissions/e789d31d-cadf-42be-9508-58be6e2a5fff.svg"
-              cluster_root: true
+              clusterRoot: true
               children:
                 -
                   name: "Breviata"
@@ -502,7 +499,7 @@
               name: "Centroheliozoa"
               desc: 'Circumscription: The centrohelids, one of several groups previously assigned to the Heliozoa that are now regarded as polyphyletic. Round bodied with stiff radiating arms (axopodia) supported internally by microtubules and with extrusomes that are quite easy to see. Cell surface naked or with organic or siliceous spines and/or scales. Some species with symbiotic algae. No flagellated stages known, may form cysts. Ultrastructural identity: Mitochondria with lamellate flat cristae. Microtubules of radiating axonemes in hexagon with triangle arrangement and arising from a multilamellate microtubule organizing centre, extrusomes with ball-and-cone organization. Radiating system of lacunae near cell surface. Many conventional. dictyosomes dispersed in cytoplasm. Siliceous elements of periplast created within silicon deposition vesicles. Synapomorphy: Platycristate heliozoa with multilamellate microtubule organizing centre faced with hemispherical structures giving rise to axonemes of microtubules arranged in hexagons and triangles. Composition: About 85 species; Family Heterophryidae (Cienkowskya, Oxnerella, Sphaerastrum, Heterophrys), Family Raphidiophryidae (Parasphaerastrum, Polyplacocystis, Raphidiophrys, Raphidocystis,) Family Acanthocystidae (Pseudoraphidocystis, Pseudoraphidiophrys, Pterocystis, Echinocystis, Choanocystis, Acanthocystis).'
               image: "http://phylopic.org/assets/images/submissions/6fe75b0b-1488-4193-8523-f240c2d59575.svg"
-              cluster_root: true
+              clusterRoot: true
               children:
                 -
                   name: "Acanthocystidae"
@@ -520,7 +517,7 @@
               name: "Cryptophyta"
               desc: 'Cryptomonads are aquatic unicellular eukaryotes that inhabit both marine and freshwater environments. Most cryptomonads are photosynthetic (and are thus referred to as cryptophytes) and possess plastids that are very diverse in pigmentation (Figure 1). In addition to being important from an ecological perspective, the cryptophytes are of pivotal significance in terms of our understanding of endosymbiosis and the evolution of plastids. This is because cryptophytes acquired photosynthesis by the process of secondary (i.e., eukaryote-eukaryote) endosymbiosis, having engulfed and assimilated a red algal endosymbiont at some time during their evolutionary past (Archibald and Keeling 2002; Bhattacharya et al. 2003; Gould et al. 2008). As a result, cryptophytes are extremely complex from a genetic and cell biological perspective, having a four-membrane-bound plastid and four distinct DNA-containing cellular compartments, the plastid, mitochondrion, host nucleus and endosymbiont nucleus, the latter being referred to as the nucleomorph. The cryptophyte nucleomorph genome is highly reduced in structure and coding capacity, and is the focus of ongoing research aimed at understanding the pattern and process of secondary endosymbiosis (Gilson and McFadden 2002; Archibald 2007).'
               image: "http://phylopic.org/assets/images/submissions/6fe75b0b-1488-4193-8523-f240c2d59575.svg"
-              cluster_root: true
+              clusterRoot: true
               children:
                 -
                   name: "Cryptomonadales"
@@ -533,7 +530,7 @@
             -
               name: "Euglenozoa"
               image: "http://phylopic.org/assets/images/submissions/6fe75b0b-1488-4193-8523-f240c2d59575.svg"
-              cluster_root: true
+              clusterRoot: true
               children:
                 -
                   name: "Diplonemidia"
@@ -548,7 +545,7 @@
               name: "Fornicata"
               desc: 'Fornicata is a recently (Simpson 2003) recognized clade that belongs to the eukaryotic supergroup Excavata. Fornicates are unicellular heterotrophic flagellates with one or two karyomastigonts per cell. One karyomastigont bears one to four flagella. Fornicates exhibit several unusual characteristics, notably absence of classical mitochondria. Therefore, they were once considered to represent basal, primarily amitochondriate eukaryotes, so-called "Archezoa". However, it has been shown that the presumably primitive fornicate cell arose rather by simplification and that Fornicata possess reduced mitochondria-related organelles. The clade consists of four disparate lineages: free-living Carpediemonas and Dysnectes, both free-living and parasitic diplomonads (Diplomonadida), and almost exclusively parasitic retortamonads (Retortamonadida). Diplomonads, the best known fornicate group, comprise several important parasitic species including the human intestinal pathogen Giardia intestinalis. Interestingly, most diplomonads are diplozoic, i.e. their cells possess two identical and axially symmetrical sets of all cellular structures, though the symmetry is probably only superficial. Some diplomonads also use an alternative genetic code. The other fornicates, i.e. retortamonads, Carpediemonas and Dysnectes, are among the least studied eukaryotes.'
               image: "http://phylopic.org/assets/images/submissions/083d187a-5b1b-478c-980b-31ad91f865fa.svg"
-              cluster_root: true
+              clusterRoot: true
               children:
                 -
                   name: "Carpediemonas"
@@ -564,7 +561,7 @@
               name: "Glaucocystophyceae"
               image: "http://phylopic.org/assets/images/submissions/9fa6f3b7-efda-49ce-a119-eb6070d77a75.svg"
               desc: "Green non-sulfur Bacteria"
-              cluster_root: true
+              clusterRoot: true
               children:
                 -
                   name: "Cyanophoraceae"
@@ -578,7 +575,7 @@
             -
               name: "Haptophyceae"
               desc: 'Algae are photosynthetic organisms that occur in most habitats, ranging from marine and freshwater to desert sands and from hot boiling springs to snow and ice. Algae are important ecologically, as they represent half of the photosynthetic production of global organic material. Phycology is the scientific term for the study of algae.'
-              cluster_root: true
+              clusterRoot: true
               children:
                 -
                   name: "Coccolithales"
@@ -604,7 +601,7 @@
             -
               name: "Heterolobosea"
               desc: 'Circumscription: Heterotrophic amoebas, amoebo-flagellates (collectively the vahlkampfiids or schizopyrenids), flagellates (Percolomonas), and slime moulds (the acrasids). Two genera have no flagellated stage, but the majority of species have the capacity to convert from amoebas to flagellates or to encyst. Flagellates have two to four flagella and usually an ingestion region with an adjacent ridge supported by microtubules. Amoebas move with eruptive pseudopodia. Common in soils, but the group contains a facultative pathogen of the human central nervous systems (Naegleria). The acrasid slime moulds are one of two types of cellular slime moulds in which resistant spores are released from an aggregated mass of cells and in which differentiation may occur. Ultrastructural identity: Mitochondrial cristae discoidal (i.e., with pedicel) or sacculate, mitochondria may be partly enclosed by an extension of endoplasmic reticulum. Basal bodies parallel or nearly so, giving rise to several microtubular roots and sometimes a cross-striated nonmicrotubular root. Without dictyosomes with stacks of sacs, usually no extrusomes, cell surface naked. Nuclear envelope intact during mitosis, spindle microtubules internal. Synapomorphy: To be resolved but either discieristate protists forming eruptive pseudopodia or discicristate protists with parallel basal bodies inserting on an electrondense pad, possibly with a substantial cross-striated root.'
-              cluster_root: true
+              clusterRoot: true
               children:
                 -
                   name: "Acrasida"
@@ -620,7 +617,7 @@
               name: "Jakobida"
               desc: 'Jakobids (Jakobida or Jakobea) are a small group of free-living, heterotrophic flagellates. There are only a dozen described species, including incertae sedis organisms, plus two undescribed species for which there are, nonetheless, substantial molecular data. Jakobids were not recognized as a group until the early 1990s, and were poorly studied until that time. Since then they have garnered considerable interest for evolutionary reasons, primarily because of their uniquely bacterial-like mitochondrial genomes.'
               image: "http://phylopic.org/assets/images/submissions/6fe75b0b-1488-4193-8523-f240c2d59575.svg"
-              cluster_root: true
+              clusterRoot: true
               children:
                 -
                   name: "Andalucia"
@@ -635,7 +632,7 @@
                   name: "Seculamona"
             -
               name: "Katablepharidophyta"
-              cluster_root: true
+              clusterRoot: true
               children:
                 -
                   name: "Katablepharic"
@@ -643,7 +640,7 @@
                   name: "Roombia"
             -
               name: "Malawimonadidae"
-              cluster_root: true
+              clusterRoot: true
               children:
                 -
                   name: "Malawimonas"
@@ -652,7 +649,7 @@
               name: "Opisthokonta"
               desc: 'Circumscription: This group contains the true fungi and their protist relatives (the chytrids) and the animals and their protist relatives (the choanoflagellates). The close relationship of the multicellular taxa was initially indicated by molecular means. The group contains uniflagellated solitary and colonial protists with one flagellum at some stage in their life history, phagotrophs, saprophytes, mycelial organisms with spore-forming bodies but no flagella, multicellular heterotrophs formed from layers of cells (epithelia), and the sponges with a less structured arrangement of cells. Collagen, one of the components of the extracellular matrix of the animals has also been reported from some fungi. All of the flagellated taxa and flagellated cells swim with a single flagellum beating behind the cell. The term opisthokonta has been applied to this grouping (Cavalier-Smith and Chao 1995; Cavalier-Smith 1996). However, Cavalier-Smith and Chao do not use the term as a formal taxon because it would require that more important taxa are subordinated to less important taxa. Here, the opisthokonts is a taxon with the composition as indicated. The name may need to be revisited as the term Opisthokonta has previously been used by Copeland (1956) for the chytrids. Some other permanently or temporarily opisthokont protists-such as several nominal pelobionts or the unassigned Phalansterium or Pseudaphelidium-are not included, and it is not yet known if they form part of this group. Ultrastructural identity: The diversity of organization within this group is great, extending from uniflagellated protists with or without the ability to make siliceous products to multicellular myeelial or epitheliate organisms. Apart from having platycristate mitochondria and being dictyosomate, this group has few discriminating characters that extend throughout this group. Nuclear division is variable within the fungi but in the animals, the envelope breaks down during mitosis. Synapomorphy: Unspecified but probably may relate to the radiating and arcing anchorage structures associated with the single flagellum. Very few studies of the protistan (ancestral) members have been conducted, and until more detailed ultrastructural studies are carried Out, such a determination would probably be premature. Most included taxa have secondarily lost this character. Composition: The largest of the major eukaryote lineages with probably in excess of 1,000,000 species, in two major clusters: (chytrids + true fungi) + (choanoflagellates + Metazoa). These two clusters themselves require appropriately defined names. This taxon includes the Myxospora (previously thought of as a group of protozoa) as a subset of the Cnidaria; and the Microspora are placed with the fungi in line with recent molecular evidence.'
               image: "http://phylopic.org/assets/images/submissions/9e4aa480-1156-4a10-8239-f45050648fb9.svg"
-              cluster_root: true
+              clusterRoot: true
               children:
                 -
                   name: "Choanoflagellida"
@@ -685,7 +682,7 @@
                     -
                       name: "Dikarya"
                       desc: 'The subkingdom Dikarya was proposed by Hibbett et al. (2007) for the large clade of fungi composed of the phyla Ascomycota and Basidiomycota, with the name Dikarya reflecting the shared characteristic of having at least some dikaryotic hyphae (i.e., hyphae in which cells contain a haploid nucleus from each parent rather than a single haploid or diploid nucleus).'
-                      cluster_root: true
+                      clusterRoot: true
                       children:
                         -
                           name: "Ascomycota"
@@ -697,7 +694,7 @@
                               name: "Saccharomycetes"
                             -
                               name: "Pezizomycotina"
-                              cluster_root: true
+                              clusterRoot: true
                               children:
                                 -
                                   name: "Xylonomycetes"
@@ -734,13 +731,13 @@
                   name: "Metazoa"
                   desc: 'The Kingdom Animalia (=Metazoa) is one of a handful of lineages rooted far back in the branching "tree" that represents the history of life on Earth. This lineage that is composed of those organisms we know as "animals" represents one of the three major origins of multicellularity (the other two large and diverse groups of multicellular organisms are the fungi and the green plants). It is difficult to list characteristics that apply to all animals, since various branches of the animal tree have undergone a range of significant modifications. However, most animals obtain energy from other organisms. They generally feed on them as predators (killing and eating a prey item); parasites, including herbivores feeding on plants (feeding on their "prey" without killing it, at least not immediately); or detritivores (ingesting tiny bits of decomposing organic material such as fallen leaves). In contrast to animals, most plants make their own food, through the extraordinary process of photosynthesis, using energy captured from the sun; most fungi break down decaying organic material (without ingesting it) into its chemical constituents and absorb released nutrients. Animal cells lack a rigid cell wall (some form of which is typical of plants and most fungi) and their cell biology and physiology differ in a variety of ways from other organisms. The diversity of animals is impressive. Zhang (2011; 2013) recently coordinated an effort to outline a classification scheme for all known animals and to estimate species richness (i.e., number of species) in different parts of the animal tree. Results from this publication are enlightening. More than 1.5 million animal species have been described (and many more continue to be discovered and formally described each year). The phylum Arthropoda (insects, spiders, crustaceans, etc.) accounts for around 80% of this total; around 2/3 of the total is accounted for by the insects alone. Well over a third of all known insects (and around a quarter of all known animal species!) are beetles: nearly 400,000 different species of beetles have already been described. Among the known species of insects are also nearly 120,000 Hymenoptera (ants, bees, and wasps) and nearly 160,000 Lepidoptera (moths and butterflies). More than 40,000 spider species and over 50,000 species of Acari (mites and ticks) have been described. Nearly 70,000 species of Crustacea (crabs, shrimps, barnacles, pillbugs, and many groups completely unfamiliar to those who do not study them!) are known. The Myriapoda (millipedes, centipedes, and relatives) includes around 12,000 described species. The Mollusca (clams, snails, octopuses, and relatives) is among the largest of the animal phyla, with nearly 120,000 known species. There are over 17,000 known species of Annelida (segmented worms, including earthworms, "polychaete" worms, leeches, and their relatives), Even some groups most people have never even heard of are quite diverse. For example, there are over 1000 described Acanthocephala, over 3000 Pseudoscorpiones, and more than 1500 Rotifera species (and rotifer specialists believe this last number may represent just a tenth or less of the true global rotifer species diversity). By comparison with these invertebrate clades, the generally more familiar vertebrate groups are less diverse, but many people may still be surprised to learn, for example, that there are around 32,000 species of described "fishes" and nearly 6,000 described mammal species. The numbers presented here are merely an appetizer. Anyone seriously interested in biodiversity will thoroughly enjoy studying the original volume by Zhang and colleagues which is freely available online.'
                   image: "http://phylopic.org/assets/images/submissions/5f337547-6d75-4b62-8361-e02bd38ec3b0.original.png"
-                  cluster_root: true
+                  clusterRoot: true
                   children:
                     -
                       name: "Bilateria"
                       image: "http://phylopic.org/assets/images/submissions/04f4fb98-4dbc-424e-81ac-85226becd06b.svg"
                       desc: "Chromerida. Most animals, including vertebrates (fishes, frogs, birds, humans), arthropods (insects, spiders, crustaceans), and molluscs (snails, mussels, squid), are part of the group Bilateria.  This name is derived from the fact that representatives generally show bilateral symmetry. A single median axis divides the body into equivalent halves that are mirror images of one another.  These halves run from the front end, which is usually differentiated into a head, to the back end, often in the form of a tail.  This body plan contrasts with that of radially symmetrical animals like jellyfish and sea anemones which have multiple similar parts arranged around a central axis, so their bodies lack a front and back end. Some bilaterians, such as sea stars and sea urchins, actually have radially symmetrical bodies.  However, it is clear that they evolved from bilaterally symmetrical ancestors, and their larvae still display bilateral symmetry. The alternative name Triploblastica is sometimes applied to this group.  This name refers to the fact that the early embryo of bilaterians (the blastula stage) is generally composed of three primary germ layers: the ectoderm (outer layer), the endoderm (inner layer), and the mesoderm (middle layer) between them.  The blastula of diploblastic animals, like corals and comb jellies, lacks a mesoderm and therefore has only two layers."
-                      cluster_root: true
+                      clusterRoot: true
                       children:
                         -
                           name: "Deuterostomia"
@@ -759,7 +756,7 @@
                               name: "Chordata"
                               desc: 'The Phylum Chordata includes the well-known vertebrates (fishes, amphibians, reptiles, birds, mammals). The vertebrates and hagfishes together comprise the taxon Craniata. The remaining chordates are the tunicates (Urochordata), lancelets (Cephalochordata), and, possibly, some odd extinct groups. With few exceptions, chordates are active animals with bilaterally symmetric bodies that are longitudinally differentiated into head, trunk and tail. The most distinctive morphological features of chordates are the notochord, nerve cord, and visceral clefts and arches. Chordates are well represented in marine, freshwater and terrestrial habitats from the Equator to the high northern and southern latitudes. The oldest fossil chordates are of Cambrian age. The earliest is Yunnanozoon lividum from the Early Cambrian, 525 Ma (= million years ago), of China. This was just recently described and placed with the cephalochordates (Chen et al., 1995). Another possible cephalochordate is Pikaia (Nelson, 1994) from the Middle Cambrian. These fossils are highly significant because they imply the contemporary existence of the tunicates and craniates in the Early Cambrian during the so-called Cambrian Explosion of animal life. Two other extinct Cambrian taxa, the calcichordates and conodonts, are uncertainly related to other Chordata (Nelson, 1994). In the Tree of Life project, conodonts are placed as a subgroup of vertebrates. Chordates other than craniates include entirely aquatic forms. The strictly marine Urochordata or Tunicata are commonly known as tunicates, sea squirts, and salps. There are roughly 1,600 species of urochordates; most are small solitary animals but some are colonial, organisms. Nearly all are sessile as adults but they have free-swimming, active larval forms. Urochordates are unknown as fossils. Cephalochordata are also known as amphioxus and lancelets. The group contains only about 20 species of sand-burrowing marine creatures. The Cambrian fossils Yunnanozoon and Pikaia are likely related to modern cephalochordates. During the Ordovician Period (510 - 439 Ma) jawless or agnathan fishes appeared and diversified. These are the earliest known members of Vertebrata, the chordate subgroup that is most familiar to us. Fossils representing most major lineages of fish-like vertebrates and the earliest tetrapods (Amphibia) were in existence before the end of the Devonian Period (363 Ma). Reptile-like tetrapods originated during the Carboniferous (363 - 290 Ma), mammals differentiated before the end of the Triassic (208 Ma) and birds before the end of the Jurassic (146 Ma). The smallest chordates (e.g. some of the tunicates and gobioid fishes) are mature at a length of about 1 cm, whereas the largest animals that have ever existed are chordates: some sauropod dinosaurs reached more than 20 m and living blue whales grow to about 30 m.'
                               image: "http://phylopic.org/assets/images/submissions/719d7b41-cedc-4c97-9ffe-dd8809f85553.svg"
-                              cluster_root: true
+                              clusterRoot: true
                               children:
                                 -
                                   name: "Urochordata"
@@ -778,7 +775,7 @@
                                       name: "Gnathostomata"
                                       image: "http://phylopic.org/assets/images/submissions/db19e645-0508-41fe-a78d-a2f59dd0b5a8.svg"
                                       desc: 'Jawed Vertebrates. The Gnathostomata, or gnathostomes, are the majority of the Middle Devonian (-380 million years ago) to Recent vertebrates. They differ from all other craniates or vertebrates in having a vertically biting device, the jaws, which consist of an endoskeletal mandibular arch and a variety of exoskeletal grasping, crushing, or shearing organs, i.e. the teeth, and jaw bones. Among Recent vertebrates, the gnathostomes include sharks, rays, chimaeras, ray-finned fishes, lobe-finned fishes and land vertebrates. Extant gnathostomes fall into two major clades, the Chondrichthyes and Osteichthyes. In addition, there are two extinct major gnathostome clades, the Placodermi (Early Silurian-Late Devonian) and the Acanthodii (Latest Ordovician or Earliest Silurian - Early Permian). There may be other fossil gnathostome taxa which fall outside of these four taxa. This could be the case for the Mongolepida, only known from isolated scales from the Early Silurian, and which are provisionally assigned to the chondrichthyans, yet with great reservations. The Chondrichthyes are characterized by a special type of hard tissue lining the cartilages of the endoskeleton: the prismatic calcified cartilage. Another chondrichthyan characteristic is the pelvic clasper, as special copulatory organ derived from the metapterygium, i.e. the posterior part of the pelvic fin. A pelvic clasper may, however, be present in the fossil Placodermi. Chondrichthyans include two major extant clades, the Elasmobranchii and the Holocephali, and a number of fossil clades (Cladoselachidae, Symmoriida, Xenacanthiformes, Iniopterygia, Eugeneodontida) which may fall outside these two clades. The Osteichthyes are characterized by endochondral ("spongy") bone in the endoskeleton, dermal fin rays made up by lepidotrichiae (modified, tile-shaped scales), and three pairs of tooth-bearing dermal bones lining the jaws (dentary, premaxillary and maxillary). The Osteichthyes include two major clades, the Actinopterygii and the Sarcopterygii. The Placodermi are characterized by a dermal armor consisting of a head armor and a thoracic armor. In the thoracic armor, the foremost dermal plates form a complete "ring" around the body and always include at least one median dorsal plate. The Acanthodii are characterized by dermal spines inserted in front of all fins but the caudal one. They also possess minute, growing scales which have a special onion-like structure, i.e. the crown consists of overlying layers of dentine or mesodentine.'
-                                      cluster_root: true
+                                      clusterRoot: true
                                       children:
                                         -
                                           name: "Sarcopterygii"
@@ -793,7 +790,7 @@
                                             -
                                               name: "Terrestrial Vertebrates"
                                               image: "http://phylopic.org/assets/images/submissions/07e33019-bcd6-4987-9365-0ddb0677ab01.svg"
-                                              cluster_root: true
+                                              clusterRoot: true
                                               children:
                                                 -
                                                   name: "Tetrapoda"
@@ -812,7 +809,7 @@
                                                             -
                                                               name: "Batrachia"
                                                               desc: "Living Amphibians"
-                                                              cluster_root: true
+                                                              clusterRoot: true
                                                               children:
                                                                 -
                                                                   name: "Salientia"
@@ -842,7 +839,7 @@
                                                               children:
                                                                 -
                                                                   name: "Eupelycosauria"
-                                                                  cluster_root: true
+                                                                  clusterRoot: true
                                                                   children:
                                                                     -
                                                                       name: "Sphenacodontia"
@@ -861,7 +858,7 @@
                                                                           name: "Mammalia"
                                                                           desc: 'Mammals are vertebrate animals which feed their young on milk produced by mammary glands. All have hair at some point in their lives, even if they have only a few (like most whales). They are generally endothermic ("warm-blooded"), producing body heat internally. Some species, such as seals regularly also use the sun or other environmental heat sources in addition to the metabolic heat they produce. Most species give birth to living young - with the notable exception of the monotremes (the platypus and the echidnas) of Australia and the southern Pacific region, which lay leathery shelled eggs. The approximately 5000 species of mammals range in size from the 100 foot long (30m) blue whale to the 3/4 inch (30-40mm) long Old World hognosed bat. Various species of mammal can swim, climb, run and fly. Mammals are distributed worldwide, occurring on all continents and most islands. Even islands that are said to be without mammals will have whales in the nearby waters. One species has even begun to colonize local space off earth.'
                                                                           image: "http://phylopic.org/assets/images/submissions/f4b6df56-f216-4a4c-9940-4105da8b462e.original.png"
-                                                                          cluster_root: true
+                                                                          clusterRoot: true
                                                                           children:
                                                                             -
                                                                               name: "Monotremata"
@@ -887,7 +884,7 @@
                                                                       name: "Testudines"
                                                                       image: "http://phylopic.org/assets/images/submissions/3827b9bf-ca2f-4613-aa9c-28c4101e04d8.original.png"
                                                                       desc: "Turtles, Tortoises, and Terrapins"
-                                                                      cluster_root: true
+                                                                      clusterRoot: true
                                                                       children:
                                                                         -
                                                                           name: "Casichelydia"
@@ -929,7 +926,7 @@
                                                                               name: "Dinosauria"
                                                                               image: "http://phylopic.org/assets/images/submissions/8f3e5723-986f-4f1d-9292-ff041ce176ca.svg"
                                                                               desc: "Dinosaurs, Birds"
-                                                                              cluster_root: true
+                                                                              clusterRoot: true
                                                                               children:
                                                                                 -
                                                                                   name: "Theropoda"
@@ -952,7 +949,7 @@
                                                                           name: "Lepidosauromorpha"
                                                                           image: "http://phylopic.org/assets/images/submissions/7dee5849-e764-4694-abf7-d0ae4cc8cabe.svg"
                                                                           desc: "Lizards, Snakes, Sphenodon"
-                                                                          cluster_root: true
+                                                                          clusterRoot: true
                                                                           children:
                                                                             -
                                                                               name: "Lepidosauria"
@@ -980,7 +977,7 @@
                           name: "Ecdysozoa"
                           desc: 'Ecdysozoa is a group of protostome animals (Telford et al. 2008), including Arthropoda (insects, chelicerata, crustaceans, and myriapods), Nematoda, and several smaller phyla. They were first defined by Aguinaldo et al. in 1997, based mainly on trees constructed using 18S ribosomal RNA genes. A large study in 2008 by Dunn et al. strongly supported the Ecdysozoa as a clade, that is, a group consisting of a common ancestor and all its descendants. The group is also supported by morphological characters, and can be considered as including all animals that shed their exoskeleton (see ecdysis). Groups corresponding roughly to the Ecdysozoa had been proposed previously by Perrier in 1897 and Seurat in 1920 based on morphology alone. The group has been contested by a significant minority of biologists. Some have argued for groupings based on more traditional taxonomic techniques (Nielsen 1995), while others have contested the interpretation of the molecular data (Blair et al. 2002, Wagele et al. 1999).'
                           image: "http://phylopic.org/assets/images/submissions/e7d59ad8-887c-4017-bad5-6e2b5b167dc6.svg"
-                          cluster_root: true
+                          clusterRoot: true
                           children:
                             -
                               name: "Arthropoda"
@@ -1017,7 +1014,7 @@
                         -
                           name: "Lophotrochozoa"
                           image: "http://phylopic.org/assets/images/submissions/d44b2edf-591c-41cb-91bb-576ac1496348.svg"
-                          cluster_root: true
+                          clusterRoot: true
                           children:
                             -
                               name: "Annelida"
@@ -1055,12 +1052,12 @@
                       name: "Myxozoa"
                       desc: 'Members of the Myxozoa are microscopic metazoan parasites with an extremely reduced body. The dimensions of the myxospore, the typical myxozoan stage in fish hosts, range usually between one hundredth and two hundredth of a millimetre. Myxospores consist of several cells, which are transformed to shell valves, nematocyst-like polar capsules with coiled extrudible polar filaments and amoeboid infective germs. Myxospores develop in plasmodia (trophozoites), which can be very large and polysporic (generally histozoic in host tissue) or small and mono- or disporic (coelozoic in organ cavities). Myxozoans are parasites of fish, worms (oligochaetes and polychaetes) and bryozoans. Few representatives were found as parasites of amphibians and reptiles, and recent findings confirmed the ability of myxozoans to infect mammals (Prunescu et al. 2007, Dykova et al. 2007) and birds (Bartholomew et al. 2008). Humans as potential hosts for myxosporea were also reported (Boreham et al. 1998, Moncada et al. 2001), however, myxospores were detected in faecal samples and probably just passed through the digestive tract. Myxozoa Grasse, 1970 contains two classes: Malacosporea Canning, Curry, Feist, Longshaw et Okamura, 2000 and Myxosporea Buetschli, 1881. Malacosporea includes only two genera (Tetracapsuloides and Buddenbrockia) with a total of three described species. Myxosporea includes about 2200 species in 60 genera. Wolf and Markiw (1984) discovered myxosporean life cycles altering between two host species - fish and annelid worm. The myxospore is ingested by annelids and then the myxosporean undergoes a schizogony and a gametogony. Finally, the parasite develops into an actinospore, a triradiate myxosporean spore, which infects the vertebrate host. Here, the sporoplasm released from the actinospore divides by endogony, and then presporogenic multiplication of the myxosporean occurs. The life cycle is completed with the development of mature myxospores in sporogonic plasmodia. The annelids are definitive hosts whereas vertebrates are intermediate hosts for Myxosporea. Myxozoans were considered to be protists for more then one hundred years until the early nineties of 20th century. Then, the phylogenetic analysis of the primal myxosporean SSU rDNA sequence (Smothers et al. 1994) confirmed earlier hypotheses that myxozoans are multicellular organisms (tolc 1899, Weill 1938) and placed Myxozoa inside Metazoa. However, SSU rDNA data failed to find the correct position of the Myxozoa within metazoan taxa. Myxozoan SSU rDNA appeared to be a fast-evolving sequence resulting in long-branches in phylogenetic trees. Therefore, the SSU rDNA data are insufficient to decide whether Myxozoa are closely related either to Bilateria, Cnidaria (including Polypodium hydriforme) or other taxa (Smothers et al. 1994, Siddall et al. 1995, Hanelt et al. 1996, Siddall and Whiting 1999). The rediscovery of Buddenbrockia plumatellae, a worm-like animal, as a myxozoan species was an important clue to the origin of Myxozoa (Monteiro et al. 2002). SSU rDNA of this enigmatic worm showed its close relationship to Tetracapsuloides bryosalmonae, and B. plumatellae was assigned to Malacosporea, the sister group to Myxosporea. Consequently Myxozoa were considered to be bilaterians or their close relatives (Monteiro et al. 2002). However, phylogenetic analysis based on sequences of numerous protein-coding genes (Jimenez-Guri et al. 2007) excluded a bilaterian origin of B. plumatellae and suggested Cnidaria as the most closely related taxon to Myxozoa. The malacosporean Tetracapsuloides bryosalmonae and some myxosporean species are of economic importance causing significant losses of farm-reared fish. T. bryosalmonae causes dangerous proliferative kidney disease of salmonids (Kent et al. 1994). Probably the most serious myxosporean pathogen is Myxobolus cerebralis (whirling disease) which infects cartilage of freshwater salmonids and causes vast losses due to death (Nehring and Walker 1996). The other economically important species are e. g. Enteromyxum leei (enteromyxosis) (Palenzuela et al. 2002), Henneguya ictaluri (proliferative gill diseases) (Pote et al. 2000) and Kudoa thyrsites (post-harvest soft flesh) (Kent et al. 1994).'
                       image: "http://phylopic.org/assets/images/submissions/ae1697f9-686f-4e0d-b51b-47ac70c8856b.original.png"
-                      cluster_root: true
+                      clusterRoot: true
                       children:
                         -
                           name: "Cnidaria"
                           desc: 'Cnidarians are a diverse group of aquatic animals. More than 9,000 species are part of the Phylum Cnidaria, and all species are aquatic. Cnidarians are widespread in marine habitats and less common in fresh water. This interesting group of invertebrates includes many charismatic organisms such as hydras, sea fans, jellyfishes, sea anemones, corals, and the Portuguese man-of-war. Cnidarians all have some type of specialized stinging cell organelle. Cnidarian bodies typically take one of two forms: the polyp or the medusa. While the polyp form is adapted for a sedentary or sessile lifestyle, the medusa form is adapted for floating or free-swimming. Sea anemones and corals (class Anthoza) are all polyps. True jellyfishes (class Scyphozoa) are all medusae, though some have a polyp larval stage. Notably, some hydroids (class Hydrozoa) alternate between polyp and medusa forms throughout their lives.'
-                          cluster_root: true
+                          clusterRoot: true
                           children:
                             -
                               name: "Anthozoa"
@@ -1083,7 +1080,7 @@
                           name: "Ctenophora"
                           desc: '"Ctenophores have been described as the most beautiful, delicate, seemingly innocent yet most voracious, sinister and destructive of plankton organisms." (Mianzan et al., 2009) Ctenophores are gelatinous marine animals, similar in many ways to jellyfish but lack stinging cnidae, and movement is via the coordinated beating of cilia ("combs") instead of muscular contractions. As of 2008, about 150 species had been described. They occur throughout the ocean, at all depths and are mostly planktonic, though a few are benthic. Comb jellies are efficient predators, consuming zooplankton such as fish eggs, copepods, amphipods, and larvae. Some eat jellyfish, salps, and other ctenophores. They range in size from a few millimeters to 2 m long, and most are transparent and bioluminescent.'
                           image: "http://phylopic.org/assets/images/submissions/4924b6bd-cfb8-4d60-a32a-442d02afbe85.svg"
-                          cluster_root: true
+                          clusterRoot: true
                           children:
                             -
                               name: "Cydippida"
@@ -1111,7 +1108,7 @@
                           name: "Porifera"
                           desc: 'Sponges (phylum Porifera) are an exclusively aquatic and, with a few exceptions (Vacelet and Boury-Esnault 1995), a filter-feeding group of animals. The group consists of approximately 15,000 extant species. Adult sponges can be asymmetrical or radially symmetrical and come in a variety of sizes, colors, and shapes, including arboresecent (tree-like), flabellate (fan-shaped), caliculate (cup shaped), tubular (tube shaped), globular (ball shaped), and amorphous (shapeless) among others. Sponges occupy both freshwater and marine environments, from shallow to abysmal depths, and are common in coral reef, mangroves, and seagrass ecosystems. In some places (e.g. Lake Baikal, Russia) sponges dominate benthic communities and along the pacific cost of North America they form modern sponge reefs.'
                           image: "http://phylopic.org/assets/images/submissions/3449d9ef-2900-4309-bf22-5262c909344b.svg"
-                          cluster_root: true
+                          clusterRoot: true
                           children:
                             -
                               name: "Calcarea"
@@ -1131,7 +1128,7 @@
                   name: "Oxymonadida"
                   desc: 'Circumscription: Mostly flagellates, all known species are commensals usually in intestines of termites, typically with four flagella in two pairs, and basal bodies giving rise to an organelle, the axostyle, which may be able to undulate. Ultrastructural identity: No mitochondria, four basal bodies arranged in two separated pairs and giving rise to several major microtubular roots, some with associated nonmicrotubular roots. Axostyle, comprised of parallel sheets of microtubules, which in some species slide relative to each other and may have associated additional material. No extrusomes nor dictyosomes, cell surface naked. Synapomorphy: Amitochondriate protists with axostyle constituted of multiple sheets of microtubules.'
                   image: "http://phylopic.org/assets/images/submissions/6fe75b0b-1488-4193-8523-f240c2d59575.svg"
-                  cluster_root: true
+                  clusterRoot: true
                   children:
                     -
                       name: "Opisthomitus"
@@ -1155,7 +1152,7 @@
                 -
                   name: "Parabasalia"
                   image: "http://phylopic.org/assets/images/submissions/c02bf6b9-f7c7-4d92-bd38-62eafbd2ce2e.svg"
-                  cluster_root: true
+                  clusterRoot: true
                   children:
                     -
                       name: "Cristamonadida"
@@ -1181,7 +1178,7 @@
                 -
                   name: "Rhizaria"
                   image: "http://phylopic.org/assets/images/submissions/91b6a357-3c72-446b-8d4e-bab352ec8ff7.svg"
-                  cluster_root: true
+                  clusterRoot: true
                   children:
                     -
                       name: "Acantharea"
@@ -1209,7 +1206,7 @@
                 -
                   name: "Rhodophyta"
                   desc: 'The Rhodophyta (red algae) are a distinct eukaryotic lineage characterized by the accessory photosynthetic pigments phycoerythrin, phycocyanin and allophycocyanins arranged in phycobilisomes, and the absence of flagella and centrioles (Woelkerling 1990). This is a large assemblage of between 2500 and 6000 species in about 670 largely marine genera (Woelkerling 1990) that predominate along the coastal and continental shelf areas of tropical, temperate and cold-water regions (Luening 1990). Red algae are ecologically significant as primary producers, providers of structural habitat for other marine organisms, and their important role in the primary establishment and maintenance of coral reefs. Some red algae are economically important as providers of food and gels. For this reason, extensive farming and natural harvest of red algae occurs in numerous areas of the world.'
-                  cluster_root: true
+                  clusterRoot: true
                   children:
                     -
                       name: "Bangiophyceae"
@@ -1228,7 +1225,7 @@
                  name: "Stramenopiles"
                  desc: 'Circumscription: A major assemblage of tubulocristate protists, including taxa with and without chloroplasts. Plastids if present with chlorophylls a and c. Most flagellated taxa with one short and one long flagellum but some with only one flagellum. The long flagellum usually carrying tripartite tubular hairs that reverse the thrust from the flagellum. In a few cells the hairs are absent and in one lineage they may be attached to the body surface. Cells may also be aflagellated, amoeboid, or mycelial, may be extremely large (some brown algal kelps). Cells may have scales, organic walls, or inorganic walls. Includes parasites, saprophytes, autotrophs, and heterotrophs; includes some taxa with great species diversity (e.g., diatoms). Ultrastructural identity: This group has considerable diversity, with few features common to all species. Mitochondria have tubular cristae, usually with two flagella but one group of lineages have a single flagellum, and another lineage has many flagella arranged in rows (kinetics). if two basal bodies are present, they are typically anchored by four microtubular roots. Plastids are present in many species, with three thylakoids per lamellae and with a stigma usually included within the plastid. Dictyosomes present. Extrusomes may be present or absent. Mitosis typically with fragmenting membrane and microtubules arising from external to the nucleus, most usually from the bases of the flagella. Synapomorphy: Tubulocristate protists with tripartite tubular hairs, but there has been secondary loss of this character in some subsets.'
                  image: "http://phylopic.org/assets/images/submissions/caa6414d-cd58-460f-80f7-6c8e991dfcf8.svg"
-                 cluster_root: true
+                 clusterRoot: true
                  children:
                     -
                       name: "Actinophryidae"
@@ -1284,7 +1281,7 @@
                   name: "Viridiplantae"
                   desc: "Green Plants"
                   image: "http://phylopic.org/assets/images/submissions/91b6a357-3c72-446b-8d4e-bab352ec8ff7.svg"
-                  cluster_root: true
+                  clusterRoot: true
                   children:
                     -
                       name: "Chlorophyta"
@@ -1309,7 +1306,7 @@
                         -
                           name: "Embryophytes"
                           image: "http://phylopic.org/assets/images/submissions/4054a966-b5e1-425d-924e-352593ff9a1d.svg"
-                          cluster_root: true
+                          clusterRoot: true
                           children:
                             -
                               name: "Marchantiomorpha"
@@ -1330,7 +1327,7 @@
                               name: "Spermatopsida"
                               image: "http://phylopic.org/assets/images/submissions/4054a966-b5e1-425d-924e-352593ff9a1d.svg"
                               desc: "Mosses"
-                              cluster_root: true
+                              clusterRoot: true
                               children:
                                 -
                                   name: "Cycads"
@@ -1346,7 +1343,7 @@
                                   name: "Angiosperms"
                                   desc: "Flowering plants"
                                   image: "http://phylopic.org/assets/images/submissions/30049b3c-eb09-4459-a34e-1963e13e2711.svg"
-                                  cluster_root: true
+                                  clusterRoot: true
                                   children:
                                     -
                                       name: "Amborella trichopoda"
@@ -1390,7 +1387,7 @@
       children:
         -
           name: "Aenigmarchaeota"
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Candidatus Aenigmarchaeum"
@@ -1400,7 +1397,7 @@
         -
           name: "Crenarchaeota"
           desc: "This large clade of Archaea is possibly the largest portion of the archaeal population in marine environments. Most are thermophilic (heat-loving) and sulfur-dependent organisms."
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Thermoprotei"
@@ -1418,7 +1415,7 @@
         -
           name: "Euryarchaeota"
           lgt: "Microgenomates"
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Archaeoglobales"
@@ -1444,7 +1441,7 @@
               name: "Unclassified Euryarchaeota"
         -
           name: "Korarchaeota"
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Candidatus Korarchaeum"
@@ -1455,14 +1452,14 @@
         -
           name: "Nanohaloarchaeota"
           desc: "This small type of archaea are all salt-lovers, meaning they procure their energy from highly-saline environments."
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Nanohaloarchaea"
         -
           name: "Parvarchaeota"
           desc: "Green non-sulfur Bacteria"
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Candidatus Micrarchaeum"
@@ -1470,7 +1467,7 @@
               name: "Candidatus Parvarchaeum"
         -
           name: "Thaumarchaeota"
-          cluster_root: true
+          clusterRoot: true
           children:
             -
               name: "Cenarchaeales"
