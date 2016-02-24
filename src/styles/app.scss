@@ -1,2 +1,18 @@
 @import './lib/animations/wobble';
-@import './lib/tree';
+
+main {
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    pointer-events: none;
+    opacity: 0.2;
+    box-shadow: 0 0 25px 4px white;
+  }
+}

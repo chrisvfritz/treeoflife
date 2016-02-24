@@ -10,9 +10,6 @@ module.exports =
     15 # Damping
   ]
 
-  path:
-    background: '#9BA09B'
-
   # -------
   # SIDEBAR
   # -------
@@ -33,11 +30,11 @@ module.exports =
   # ----
 
   tree:
-    background: '#1E1E1E'
+    background: "url(#{require('../images/tree-bg.jpg')})"
 
   node:
     size: 50
-    background: '#9BA09B'
+    background: '#1E1E1E'
 
     border:
       width:
@@ -53,6 +50,10 @@ module.exports =
       background: '#257D3F'
     origin:
       background: 'white'
+
+  path:
+    background: '#9BA09B'
+    width: '2px'
 
   main-nodes:
     * 'Origin of Life'

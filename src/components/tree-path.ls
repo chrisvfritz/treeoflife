@@ -15,3 +15,4 @@ module.exports = class TreePath extends React.Component
       style:
         fill: 'transparent'
         stroke: design-config.path.background
+        stroke-width: design-config.path.width

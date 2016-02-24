@@ -70,6 +70,8 @@ module.exports = class Tree extends React.Component
       ref: 'treeContainer'
       style:
         min-height: 1
+        background: design-config.tree.background
+        background-size: '100% 100%'
 
       $svg do
         width: @state.width + design-config.svg.margin.horizontal * 2

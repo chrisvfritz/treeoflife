@@ -30,7 +30,7 @@ module.exports = class TreeNode extends React.Component
       if node.id is active-node?id
         design-config.node[node.group].background
       else
-        design-config.tree.background
+        design-config.node.background
 
     $(OverlayTrigger) do
       animation: false
